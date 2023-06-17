@@ -11,8 +11,8 @@ Returns a list of all versions in a json array.
 
 ### Download
 ```
-GET /download/?link=<link>
+GET /dl/?link=<link>
 ```
 Downloads the file from the link and returns it. The link must be a 'adloadx' link.
 
-Example: `/download/?link=http://optifine.net/adloadx?f=OptiFine_1.19.4_HD_U_I4.jar` will return a direct download link to the jar file.
+Example: `/dl/?link=http://optifine.net/adloadx?f=OptiFine_1.19.4_HD_U_I4.jar` will return a direct download link to the jar file.
