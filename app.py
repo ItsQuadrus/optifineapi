@@ -56,7 +56,7 @@ def download_version():
     if adloadx_link:
         response = requests.get(adloadx_link)
         download_link = extract_download_link(response.content)
-        return redirect('https://optifine.net/' + download_link)
+        return redirect(f"https://optifine.net/{download_link}")
 
     return jsonify({'error': 'Invalid adloadx link'})
 
